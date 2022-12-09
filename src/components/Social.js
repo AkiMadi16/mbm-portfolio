@@ -1,7 +1,35 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUser } from "@fortawesome/free-solid-svg-icons";
+
 export default function Social() {
   return (
-    <div>
-      <h1>hello world 6</h1>
+    <div className="social">
+      <h1>
+        Social
+        <FontAwesomeIcon icon={faUser} />
+      </h1>
+
+      <div className="card">
+        <img src="" className="card-img-top" alt="" />
+        <a
+          href="https://twitter.com/tweetymadie
+  "
+          className="btn btn-primary"
+        >
+          Twitter
+        </a>
+      </div>
+
+      <div className="card">
+        <img src="" className="card-img-top" alt="" />
+        <a
+          href="https://www.linkedin.com/in/madhavi-m-014b79b2/
+  "
+          className="btn btn-primary"
+        >
+          Linkedin
+        </a>
+      </div>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Dashboard from "./components/Dashboard";
-// import './App.css';
+import "./App.css";
 import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
 import Social from "./components/Social";
