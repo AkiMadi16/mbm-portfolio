@@ -1,6 +1,7 @@
+import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import React from "react";
+import "./ContactMe.css";
 
 export default function ContactMe() {
   const handleOnSubmit = (e) => {
